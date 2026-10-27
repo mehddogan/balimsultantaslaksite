@@ -1,0 +1,292 @@
+{
+  "terimler": [
+    {
+      "terim": "Erenler",
+      "aciklama": "Yolda olgunluğa ermiş, Hakk'a ermiş kişiler. Cemde ve muhabbette topluluğa hitap olarak da kullanılır: \"Erenler!\"",
+      "kaynak": "",
+      "varyantlar": "erenler*|eren"
+    },
+    {
+      "terim": "Pir",
+      "aciklama": "Bir yolun kurucusu ve önderi. Alevi-Bektaşi geleneğinde Hacı Bektaş-ı Veli \"Pir\" diye anılır; ocak düzeninde dedelerin bağlı olduğu üst makamdır.",
+      "kaynak": "",
+      "varyantlar": "pir|piri|pire|pirim|pirin|pirine|pirime|pirimden|pirden|pirler|pirlere"
+    },
+    {
+      "terim": "Mürşit",
+      "aciklama": "Talibe yol gösteren, onu irşat eden manevi rehber. Dört kapı düzeninde hakikat kapısının rehberidir.",
+      "kaynak": "",
+      "varyantlar": "mürşit|mürşid*"
+    },
+    {
+      "terim": "Dede",
+      "aciklama": "Soyunun Ehl-i Beyt'e dayandığına inanılan ocakzade; cemi yürütür, topluluğa yol gösterir, görgüye bakar.",
+      "kaynak": "",
+      "varyantlar": "dede|dedeler"
+    },
+    {
+      "terim": "Cem",
+      "aciklama": "Alevi-Bektaşi topluluğun bir araya geldiği temel ibadet buluşması. Deyiş, semah, lokma ve görgü gibi hizmetler cemde görülür.",
+      "kaynak": "",
+      "varyantlar": "cem|cemi|cemine|ceminde"
+    },
+    {
+      "terim": "Kırklar Cemi",
+      "aciklama": "Hz. Muhammed'in Miraç dönüşünde katıldığına inanılan, Hz. Ali'nin de içinde bulunduğu kırk kişilik topluluk. Cem erkânının kaynağı ve birliğin simgesi sayılır.",
+      "kaynak": "",
+      "varyantlar": "Kırkların Cemi|Kırkların Cem|Kırkların ceminde|Kırklar Cemi|Kırklar"
+    },
+    {
+      "terim": "Muhabbet",
+      "aciklama": "Sevgi. Geleneğin dilinde dem eşliğinde, saz ve sözle yapılan sohbetin de adıdır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Deyiş",
+      "aciklama": "Alevi-Bektaşi aşıklarının yol inancını, Ehl-i Beyt sevgisini ve tasavvufi düşünceyi işlediği, sazla icra edilen şiir.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Nefes",
+      "aciklama": "Bektaşi geleneğinde deyişe verilen ad. Pirden gelen söz olarak kutsal sayılır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Aşık",
+      "aciklama": "Sazıyla ve sözüyle yolu dile getiren halk şairi; son kıtada mahlasını söyler. Hakk aşığı anlamında da kullanılır.",
+      "kaynak": "",
+      "varyantlar": "aşık|aşıklar|aşıkların|aşığım"
+    },
+    {
+      "terim": "Mahlas",
+      "aciklama": "Aşığın deyişin son kıtasında andığı şair adı: Pir Sultan, Hatayî, Kul Himmet gibi.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Zakir",
+      "aciklama": "Cemde saz eşliğinde deyiş, düvaz imam ve mersiye okuyarak hizmet gören kişi. Cemin on iki hizmetinden biridir.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Semah",
+      "aciklama": "Cemde saz eşliğinde kadın ve erkeklerin birlikte döndüğü ritüel dönüş. Turnanın uçuşuna ve kâinatın dönüşüne benzetilir.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Turna",
+      "aciklama": "Alevi-Bektaşi şiirinde kutsal sayılan kuş. Aşığın halini pire ileten haberci olarak anılır; turna semahı bilinen semahlardandır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "İkrar",
+      "aciklama": "Yola girerken verilen ahit, söz. İkrarında durmak verilen bu sözü yaşamaktır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Musahip",
+      "aciklama": "Yol kardeşliği. İki can ve aileleri cemde ömür boyu birbirine kefil olarak bağlanır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Dâr",
+      "aciklama": "Cemde kişinin topluluk ve dede karşısında boyun eğip durduğu yer ve hal. Hallac-ı Mansur'un darağacına da gönderme yapar.",
+      "kaynak": "",
+      "varyantlar": "dar|dara|darına|dardır"
+    },
+    {
+      "terim": "Çerağ",
+      "aciklama": "Cemde yakılan kutsal ışık. Yakmaya \"çerağ uyandırmak\", söndürmeye \"sırlamak\" denir.",
+      "kaynak": "",
+      "varyantlar": "çerağ*|çırağ*"
+    },
+    {
+      "terim": "Lokma",
+      "aciklama": "Cemde Hakk adına pişirilip paylaşılan yemek; helal emekle hazırlanması esastır.",
+      "kaynak": "",
+      "varyantlar": "lokma"
+    },
+    {
+      "terim": "Dolu",
+      "aciklama": "Muhabbette ve cemde Hakk adına sunulan içecek; dem de denir.",
+      "kaynak": "",
+      "varyantlar": "doluyu|doluya|doluyum|dolumuz"
+    },
+    {
+      "terim": "Ehl-i Beyt",
+      "aciklama": "Hz. Muhammed'in ev halkı; Hz. Ali, Hz. Fatma, Hz. Hasan ve Hz. Hüseyin. Ehl-i Beyt sevgisi inancın merkezinde durur.",
+      "kaynak": "",
+      "varyantlar": "Ehl-i Beyt*"
+    },
+    {
+      "terim": "Âl-i Abâ",
+      "aciklama": "\"Aba altındakiler\": Hz. Muhammed, Hz. Ali, Hz. Fatma, Hz. Hasan ve Hz. Hüseyin. Pençe-i Âl-i Abâ olarak da anılır.",
+      "kaynak": "",
+      "varyantlar": "Al-i Aba|Ali Aba"
+    },
+    {
+      "terim": "Şah-ı Merdan",
+      "aciklama": "\"Yiğitlerin şahı\"; Hz. Ali'nin lakaplarından.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Zülfikar",
+      "aciklama": "Hz. Ali'nin iki uçlu kılıcı; adaletin ve velayetin simgesi.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Düldül",
+      "aciklama": "Hz. Ali'nin bindiği katır; deyişlerde Ali'yle birlikte anılır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Hünkâr",
+      "aciklama": "Hacı Bektaş-ı Veli için kullanılan saygı unvanı.",
+      "kaynak": "",
+      "varyantlar": "hünkar*"
+    },
+    {
+      "terim": "Balım Sultan",
+      "aciklama": "Bektaşiliği kurumsallaştıran, \"ikinci pir\" sayılan yol ulusu (ö. 1516/1517). Mücerret dervişlik usulü ona dayandırılır; türbesi Hacıbektaş'tadır.",
+      "kaynak": "",
+      "varyantlar": "Balım Sultan|Sultan Balım"
+    },
+    {
+      "terim": "Kerbelâ",
+      "aciklama": "Hz. Hüseyin ve yakınlarının 680 yılında şehit edildiği yer. Muharrem orucu ve matemi bu olayı anar.",
+      "kaynak": "",
+      "varyantlar": "kerbela*"
+    },
+    {
+      "terim": "Yezid",
+      "aciklama": "Kerbelâ'da Hz. Hüseyin'in şehit edilmesinden sorumlu tutulan Emevi halifesi. Deyişlerde zulmün ve Ehl-i Beyt düşmanlığının simgesidir.",
+      "kaynak": "",
+      "varyantlar": "yezid*|yezit*"
+    },
+    {
+      "terim": "Elest",
+      "aciklama": "Bezm-i elest: Ezelde ruhlara \"Ben sizin Rabbiniz değil miyim?\" diye sorulduğu, ruhların \"Belî\" (evet) diyerek ikrar verdiği an.",
+      "kaynak": "Kur'an, A'râf 7/172",
+      "varyantlar": "elest*|belî"
+    },
+    {
+      "terim": "Enel Hak",
+      "aciklama": "\"Ben Hakk'ım\"; Hallac-ı Mansur'a ait söz. Hakk'ın insanda tecellisini ve varlığın birliğini anlatır.",
+      "kaynak": "",
+      "varyantlar": "Enel Hak*"
+    },
+    {
+      "terim": "Men arefe",
+      "aciklama": "\"Men arefe nefsehu fekad arefe rabbehu\": Kendini bilen Rabbini bilir. Yolun özünü özetleyen söz.",
+      "kaynak": "",
+      "varyantlar": "Men aref*"
+    },
+    {
+      "terim": "İnsan-ı kâmil",
+      "aciklama": "Olgun insan; nefsini terbiye etmiş, Hakk'ı kendinde bulmuş kişi. Yolun ulaşmak istediği insandır.",
+      "kaynak": "",
+      "varyantlar": "İnsan-ı kâmil|kâmil insan*"
+    },
+    {
+      "terim": "Dört kapı kırk makam",
+      "aciklama": "Şeriat, tarikat, marifet ve hakikat kapıları ile her birindeki onar makam; yolda olgunlaşmanın basamakları.",
+      "kaynak": "Hacı Bektaş-ı Veli, Makâlât",
+      "varyantlar": "dört kapı kırk makam|dört kapı"
+    },
+    {
+      "terim": "Eline, beline, diline sahip ol",
+      "aciklama": "Yolun ahlakını özetleyen ilke: elle haksızlık etmemek, belle namusa sadık kalmak, dille yalan söylememek.",
+      "kaynak": "",
+      "varyantlar": "Ele bele dile sahip|eline beline diline"
+    },
+    {
+      "terim": "Nâci güruhu",
+      "aciklama": "\"Kurtuluşa eren topluluk\". Yolun ehli kendini deyişlerde böyle anar.",
+      "kaynak": "",
+      "varyantlar": "naci güruh*|güruh-u naci*|nacilere"
+    },
+    {
+      "terim": "Tevellâ",
+      "aciklama": "Ehl-i Beyt'i ve onların dostlarını sevmek. Karşılığı teberrâ, Ehl-i Beyt düşmanlarından uzak durmaktır.",
+      "kaynak": "",
+      "varyantlar": "tevella"
+    },
+    {
+      "terim": "Abdal",
+      "aciklama": "Dünya bağlarından sıyrılmış gezgin derviş. Pir Sultan Abdal, Kaygusuz Abdal gibi adlarda da görülür.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Mihman",
+      "aciklama": "Misafir, konuk. Deyişlerde gönle konan sevgili ve manevi konuk anlamında kullanılır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Didar",
+      "aciklama": "Yüz, cemal. Didar görüşmek sevgiliye, Hakk'a kavuşmayı anlatır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Destur",
+      "aciklama": "İzin. Söze ya da hizmete başlarken pirden, dededen izin istenir: \"Destur pir!\"",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Niyaz",
+      "aciklama": "Saygıyla yakarış, dua; cemde eşiğe, çerağa ya da cana saygıyla eğilme.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Gülbank",
+      "aciklama": "Bektaşi geleneğinde topluca ya da bir kişi tarafından okunan dua.",
+      "kaynak": "",
+      "varyantlar": "gülbank|gülbeng*"
+    },
+    {
+      "terim": "Kemerbest",
+      "aciklama": "Beline kemer bağlanmış; Bektaşi erkânında yola girişin ve hizmete bağlanmanın simgesi.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Elif tâc",
+      "aciklama": "Bektaşi dervişlerinin giydiği dilimli başlık.",
+      "kaynak": "",
+      "varyantlar": "Elif taç"
+    },
+    {
+      "terim": "Post",
+      "aciklama": "Cemde dede ve hizmet sahiplerinin oturduğu makam; postta oturan kişiye postnişin denir.",
+      "kaynak": "",
+      "varyantlar": "post|postu|postumu|postnişin"
+    },
+    {
+      "terim": "Selman",
+      "aciklama": "Selman-ı Pak (Farisi). Kırklar Cemi'nde hizmet gördüğüne inanılan sahabe; hizmet ehlinin pîri sayılır.",
+      "kaynak": "",
+      "varyantlar": ""
+    },
+    {
+      "terim": "Hatayî",
+      "aciklama": "Şah İsmail'in (1487-1524) mahlası. Yedi Ulu Aşık arasında sayılır; deyişleri cemlerde yaygın olarak okunur.",
+      "kaynak": "",
+      "varyantlar": "hatayi*|hatai*"
+    }
+  ]
+}

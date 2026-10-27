@@ -1,0 +1,246 @@
+# Pages CMS yönetici paneli ayarları — https://app.pagescms.org
+media:
+  input: gorsel
+  output: gorsel
+
+content:
+  - name: nefesler
+    label: Nefesler ve Deyişler
+    type: file
+    path: data/nefesler.json
+    format: json
+    fields:
+      - name: deyisler
+        label: Nefesler
+        type: object
+        list: true
+        fields:
+          - { name: id, label: Kimlik (boşluksuz, küçük harf; örn. kul-himmet-gaipten-haber), type: string, required: true }
+          - { name: asik, label: Aşık, type: string, required: true }
+          - { name: baslik, label: Başlık (ilk dize), type: string, required: true }
+          - { name: sozler, label: "Sözler (kıtalar arasında bir boş satır bırakın)", type: text }
+
+  - name: serhler
+    label: Şerhler
+    type: collection
+    path: data/serhler
+    format: yaml-frontmatter
+    filename: "{fields.kimlik}.md"
+    view:
+      fields: [ baslik, asik, durum ]
+    fields:
+      - name: kimlik
+        label: Nefes
+        type: select
+        required: true
+        options:
+          values:
+            - { value: "kul-himmet-gaipten-haber-getirdin", label: "Kul Himmet · Gaipten haber getirdin" }
+            - { value: "kul-himmet-sabahin-seher-vaktinde", label: "Kul Himmet · Sabahın seher vaktinde" }
+            - { value: "kul-himmet-divane-gonlumuz-gecmez-guzelden", label: "Kul Himmet · Divâne gönlümüz geçmez güzelden" }
+            - { value: "asiki-evvel-muhammed-e-verek-salavat", label: "Âşıkî · Evvel Muhammed’e verek salâvat" }
+            - { value: "asiki-sefa-geldin-dilber-kadri", label: "Âşıkî · Sefa geldin dilber kâdri alişan" }
+            - { value: "asiki-arayip-gezerken-benim-buldugum", label: "Âşıkî · Arayıp gezerken benim bulduğum" }
+            - { value: "asiki-pire-giden-ben-bir", label: "Âşıkî · Pire giden ben bir bezirgân gördüm" }
+            - { value: "meluli-hakikate-uyanlara", label: "Melûlî · Hakikate uyanlara" }
+            - { value: "meluli-hakikat-sehrinin-yoluna-giren", label: "Melûlî · Hakikat şehrinin yoluna giren" }
+            - { value: "meluli-ne-haciyiz-ne-hocayiz", label: "Melûlî · Ne hacıyız ne hocayız" }
+            - { value: "ali-haki-edna-hu-diyelim-can-u-dilden", label: "Ali Hâkî Ednâ · Hü diyelim can-u dilden zümre-i merdana hü" }
+            - { value: "ali-haki-edna-gus-edelim-dosttan-gelen", label: "Ali Hâkî Ednâ · Guş edelim dosttan gelen sedayı" }
+            - { value: "ali-haki-edna-gece-gunduz-arzumanim", label: "Ali Hâkî Ednâ · Gece gündüz arzumanım" }
+            - { value: "ali-haki-edna-asiklar-zumresi-ask-etti", label: "Ali Hâkî Ednâ · Aşıklar zümresi aşk etti meftun" }
+            - { value: "sidki-baba-ask-atina-suvar-olan", label: "Sıdkı Baba · Aşk atına süvar olan aşıklar" }
+            - { value: "sidki-baba-eger-gider-isen-dost", label: "Sıdkı Baba · Eğer gider isen dost ellerine" }
+            - { value: "sidki-baba-bugun-seyre-cikmis-hublar", label: "Sıdkı Baba · Bugün seyre çıkmış Hublar Sultanı" }
+            - { value: "sidki-baba-catilmadan-yerin-gogun-binasi", label: "Sıdkı Baba · Çatılmadan yerin göğün binası" }
+            - { value: "asik-veli-nasip-olur-amasya-ya-varirsan", label: "Âşık Veli · Nasip olur Amasya’ya varırsan varırsan" }
+            - { value: "asik-veli-onbir-aydir-ben-yarime", label: "Âşık Veli · Onbir aydır ben yarime hasiret" }
+            - { value: "asik-veli-mecnunum-leylami-gordum", label: "Âşık Veli · Mecnunum Leylamı gördüm" }
+            - { value: "balim-nihan-biz-urum-abdallariyiz", label: "Balım Nihan · Biz urum abdallarıyız" }
+            - { value: "kalender-allah-bir-muhammed-ali", label: "Kalender · Allah bir Muhammed Ali" }
+            - { value: "celebi-bugun-yarin-derken-cok", label: "Çelebi · Bugün yarın derken çok zaman geçti" }
+            - { value: "hurremi-sabahtan-ugradim-pir-kapisina", label: "Hürremî · Sabahtan uğradım pir kapısına" }
+            - { value: "hurremi-dertlerinden-deli-oldum-vallahi", label: "Hürremî · Dertlerinden deli oldum vallahi" }
+            - { value: "kalender-abdal-dun-gece-seyrimde-batin", label: "Kalender Abdal · Dün gece seyrimde batın yüzünde" }
+            - { value: "hasreti-zat-i-pakinden-haberdar-oldugum", label: "Hasretî · Zât-ı pâkinden haberdâr olduğum mudur suçum" }
+            - { value: "hasreti-teferruc-eyledim-devr-i-cihani", label: "Hasretî · Teferrüc eyledim devr-i cihânı" }
+            - { value: "hasreti-garip-bulbul-nicin-gamli", label: "Hasretî · Garip bülbül niçin gamlı yaslısın" }
+            - { value: "guzide-ana-gaziler-cihanin-muddeti-doldu", label: "Güzide Ana · Gaziler cihanın müddeti doldu" }
+            - { value: "guzide-ana-sana-bir-nasihatim-var", label: "Güzide Ana · Sana bir nasihatim var" }
+            - { value: "guzide-ana-sofu-bizi-nicin-ta-n", label: "Güzide Ana · Sofu bizi niçin ta’n edersin" }
+            - { value: "perisan-guzel-esinden-ayrilan-yarali-ordek", label: "Perişan Güzel · Eşinden ayrılan yaralı ördek" }
+            - { value: "perisan-guzel-bir-turna-ucurdum-hublar", label: "Perişan Güzel · Bir turna uçurdum hublar gölünden" }
+            - { value: "perisan-guzel-kinamayin-dostlar-ahu-zarimi", label: "Perişan Güzel · Kınamayın dostlar ahu zarımı" }
+            - { value: "daimi-ben-beni-bilmezdim-hatir", label: "Daimî · Ben beni bilmezdim hatır kırardım" }
+            - { value: "daimi-bir-gercege-bel-bagladim", label: "Daimî · Bir gerçeğe bel bağladım erenler" }
+            - { value: "daimi-kainatin-aynasiyim", label: "Daimî · Kâinatın aynasıyım" }
+            - { value: "ibreti-evvelden-bade-i-ask-ile", label: "İbretî · Evvelden bade-i aşk ile mestiz" }
+            - { value: "ibreti-hakk-i-pek-yakinda-gorduk", label: "İbretî · Hakk’ı pek yakında gördük inandık" }
+            - { value: "ibreti-yaraliyim-degme-bana", label: "İbretî · Yaralıyım değme bana" }
+            - { value: "pir-sultan-abdal-uyur-idik-uyardilar", label: "Pir Sultan Abdal · Uyur idik uyardılar" }
+            - { value: "pir-sultan-abdal-gidi-yezid-basimiza-bey", label: "Pir Sultan Abdal · Gidi Yezid başımıza bey oldu" }
+            - { value: "pir-sultan-abdal-ot-benim-sari-tanburam", label: "Pir Sultan Abdal · Öt benim sarı tanburam" }
+            - { value: "hatayi-aman-ey-erenler-muruvvet", label: "Hatayî · Aman ey erenler mürüvvet sizden" }
+            - { value: "hatayi-muhabbet-baginda-bir-gul", label: "Hatayî · Muhabbet bağında bir gül açıldı" }
+            - { value: "hatayi-necedir-aglarsin-ey-kas-i", label: "Hatayî · Neçedir ağlarsın ey kaş-ı keman" }
+            - { value: "nesimi-bugun-erenlere-kurban", label: "Nesîmî · Bugün erenlere kurban" }
+            - { value: "nesimi-gordunuz-mu-ey-gaziler", label: "Nesîmî · Gördünüz mü ey gaziler" }
+            - { value: "nesimi-sorma-be-birader-mezhebimizi", label: "Nesîmî · Sorma be birader mezhebimizi" }
+            - { value: "dertli-hitab-i-elestte-bezm-i-ezelde", label: "Dertli · Hitâb-ı elestte bezm-i ezelde" }
+            - { value: "dertli-ervah-i-ezelde-evvelki-safta", label: "Dertli · Ervâh-ı ezelde evvelki safta" }
+            - { value: "dertli-haraba-kul-olduk-bezm-i", label: "Dertli · Harâba kul olduk bezm-i elemde" }
+            - { value: "sadik-baba-dort-kitap-bir-huruftendir", label: "Sadık Baba · Dört kitap bir hurüftendir" }
+            - { value: "sadik-baba-erenlerin-kiblegahi-boyle-bir", label: "Sadık Baba · Erenlerin kıblegâhı böyle bir sultanım vardır" }
+            - { value: "sadik-baba-hakk-a-asik-olan-kimse", label: "Sadık Baba · Hakk’a aşık olan kimse o bir nurdur yâre karşı" }
+            - { value: "garibi-benim-pirim-sah-i-merdan", label: "Garibî · Benim pirim Şah-ı Merdan Alidir" }
+            - { value: "garibi-ara-bul-diyerek-butun", label: "Garibî · Ara bul diyerek bütün insana" }
+            - { value: "garibi-elest-hitabinda-beli-deminde", label: "Garibî · Elest hitabında beli deminde" }
+      - { name: baslik, label: Başlık, type: string }
+      - { name: asik, label: Aşık, type: string }
+      - { name: hazirlayan, label: Hazırlayan, type: string }
+      - { name: durum, label: Durum (örn. taslak, tamamlandı), type: string }
+      - { name: body, label: "Şerh metni (## Başlık, **kalın**, > alıntı)", type: text }
+
+  - name: sozluk
+    label: Sözlük
+    type: file
+    path: data/sozluk.json
+    format: json
+    fields:
+      - name: terimler
+        label: Terimler
+        type: object
+        list: true
+        fields:
+          - { name: terim, label: Terim, type: string, required: true }
+          - { name: aciklama, label: Açıklama, type: text }
+          - { name: kaynak, label: Kaynak, type: string }
+          - { name: varyantlar, label: "Nefeslerde aranacak biçimler (| ile ayırın, sonuna * ekler dahil)", type: string }
+
+  - name: zakir
+    label: Zakir Belgeseli · Bölümler
+    type: file
+    path: data/zakir.json
+    format: json
+    fields:
+      - name: bolumler
+        label: "Bölümler (ilki fragman olarak gösterilir)"
+        type: object
+        list: true
+        fields:
+          - { name: baslik, label: Başlık, type: string }
+          - { name: youtube, label: YouTube bağlantısı, type: string }
+          - { name: aciklama, label: Açıklama, type: text }
+
+  - name: kayitlar
+    label: Kayıtlar
+    type: file
+    path: data/kayitlar.json
+    format: json
+    fields:
+      - name: kayitlar
+        label: Kayıtlar
+        type: object
+        list: true
+        fields:
+          - { name: baslik, label: "Başlık (boş bırakılırsa YouTube'dan alınır)", type: string }
+          - { name: kategori, label: "Kategori (örn. Muhabbet, Film)", type: string }
+          - { name: kaynak, label: "YouTube bağlantısı ya da video/ses dosyası yolu", type: string }
+          - { name: kapak, label: Kapak görseli, type: image }
+          - { name: aciklama, label: Açıklama, type: text }
+          - { name: deyis_id, label: "İlgili nefesin kimliği (isteğe bağlı)", type: string }
+
+  - name: fotograflar
+    label: Fotoğraflar
+    type: file
+    path: data/fotograflar.json
+    format: json
+    fields:
+      - name: fotograflar
+        label: "Fotoğraflar (ilki, metni varsa öne çıkar)"
+        type: object
+        list: true
+        fields:
+          - { name: dosya, label: Fotoğraf, type: image, required: true }
+          - { name: aciklama, label: Açıklama, type: string }
+          - { name: tarih, label: Tarih, type: string }
+          - { name: yer, label: Yer, type: string }
+          - { name: metin, label: "Uzun metin (yalnızca öne çıkan fotoğraf için)", type: text }
+
+  - name: album
+    label: Albüm
+    type: file
+    path: data/album.json
+    format: json
+    fields:
+      - name: sayfalar
+        label: Sayfalar
+        type: object
+        list: true
+        fields:
+          - { name: dosya, label: Fotoğraf, type: image, required: true }
+          - { name: dortluk, label: Dörtlük, type: text }
+          - { name: asik, label: Aşık, type: string }
+
+  - name: yolculuk
+    label: Yolculuğumuz
+    type: file
+    path: data/yolculuk.json
+    format: json
+    fields:
+      - name: duraklar
+        label: Zaman çizelgesi
+        type: object
+        list: true
+        fields:
+          - { name: yil, label: Yıl, type: string }
+          - { name: baslik, label: Başlık, type: string }
+          - { name: metin, label: Metin, type: text }
+          - { name: gorseller, label: Görseller, type: image, list: true }
+
+  - name: anilar
+    label: Anılar
+    type: file
+    path: data/anilar.json
+    format: json
+    fields:
+      - name: anilar
+        label: Anılar
+        type: object
+        list: true
+        fields:
+          - { name: tarih, label: Tarih, type: string }
+          - { name: yer, label: Yer, type: string }
+          - { name: baslik, label: Başlık, type: string }
+          - { name: metin, label: Metin, type: text }
+          - { name: foto, label: Fotoğraf, type: image }
+
+  - name: ekip
+    label: Hakkımızda
+    type: file
+    path: data/ekip.json
+    format: json
+    fields:
+      - name: ekip
+        label: Kişiler (sıra burada belirlenir)
+        type: object
+        list: true
+        fields:
+          - { name: ad, label: Ad, type: string }
+          - { name: rol, label: Unvan, type: string }
+          - { name: aciklama, label: Açıklama, type: text }
+          - { name: foto, label: Fotoğraf, type: image }
+          - { name: baglanti, label: Bağlantı, type: string }
+
+  - name: ayarlar
+    label: Ayarlar ve bağlantılar
+    type: file
+    path: data/ayarlar.json
+    format: json
+    fields:
+      - { name: youtube_kanal, label: YouTube kanalı, type: string }
+      - { name: facebook, label: Facebook, type: string }
+      - { name: instagram, label: Instagram, type: string }
+      - { name: github_kullanici, label: GitHub kullanıcı adı, type: string }
+      - { name: github_depo, label: GitHub depo adı, type: string }
+      - { name: github_dal, label: GitHub dalı, type: string }

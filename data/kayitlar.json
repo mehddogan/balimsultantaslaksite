@@ -1,0 +1,36 @@
+{
+  "kayitlar": [
+    {
+      "baslik": "Ben Melamet Hırkasını",
+      "kategori": "Muhabbet",
+      "kaynak": "https://youtu.be/3qzpVrz0-Dc",
+      "kapak": "",
+      "aciklama": "Nesîmî · Balım Sultan Muhabbeti",
+      "deyis_id": ""
+    },
+    {
+      "baslik": "",
+      "kategori": "Muhabbet",
+      "kaynak": "https://youtu.be/7kFTmaXJix4",
+      "kapak": "",
+      "aciklama": "Balım Sultan Muhabbeti",
+      "deyis_id": ""
+    },
+    {
+      "baslik": "Ağacın altında",
+      "kategori": "Muhabbet",
+      "kaynak": "video/muhabbet-okan.mp4",
+      "kapak": "gorsel/doku/muhabbet-kapak.jpg",
+      "aciklama": "Balım Sultan Muhabbet Çadırı, 2025. Kayıt: Okan Ulusoy.",
+      "deyis_id": ""
+    },
+    {
+      "baslik": "Meydan",
+      "kategori": "Film",
+      "kaynak": "video/sercesme-meydan.mp4",
+      "kapak": "gorsel/doku/sercesme-kapak.jpg",
+      "aciklama": "Sessiz film.",
+      "deyis_id": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Balım Sultan Muhabbeti</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Balım Sultan Muhabbeti: Hünkâr Hacı Bektaş-ı Veli yolunda nefesler, deyişler, Zakir Belgeseli, kayıtlar, fotoğraflar ve muhabbetten kalanlar.">
+<meta name="theme-color" content="#0d0607">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Oswald:wght@400;500&family=Manrope:wght@300;400;500&family=Caveat:wght@500&display=swap">
+<link rel="stylesheet" href="assets/stil.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js"}}</script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#">Balım Sultan Muhabbeti</a>
+  <nav class="nav__links" aria-label="Öne çıkanlar">
+    <a href="#zakir-belgeseli" data-yol="zakir-belgeseli">Zakir Belgeseli</a>
+    <a href="#nefesler" data-yol="nefesler">Nefesler ve Deyişler</a>
+    <a href="#sozluk" data-yol="sozluk">Sözlük</a>
+  </nav>
+  <button class="nav__menu" id="menu-ac" type="button" aria-expanded="false" aria-controls="menu">Menü</button>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <div class="menu__zemin" aria-hidden="true"></div>
+  <div class="menu__ic">
+    <button class="menu__kapat" id="menu-kapat" type="button">Kapat</button>
+    <ol class="menu__liste">
+      <li><a href="#zakir-belgeseli"><span class="menu__ad">Zakir Belgeseli</span><span class="menu__not">Okan Ulusoy</span></a></li>
+      <li><a href="#nefesler"><span class="menu__ad">Nefesler ve Deyişler</span><span class="menu__not">Aşıkların sözü</span></a></li>
+      <li><a href="#sozluk"><span class="menu__ad">Sözlük</span><span class="menu__not">Yolun dili</span></a></li>
+      <li><a href="#yolculugumuz"><span class="menu__ad">Yolculuğumuz</span><span class="menu__not">Çadırdan meydana</span></a></li>
+      <li><a href="#kayitlar"><span class="menu__ad">Kayıtlar</span><span class="menu__not">Ses ve görüntü</span></a></li>
+      <li><a href="#fotograflar"><span class="menu__ad">Fotoğraflar</span><span class="menu__not">Dergâhtan kareler</span></a></li>
+      <li><a href="#album"><span class="menu__ad">Albüm</span><span class="menu__not">Sayfa sayfa</span></a></li>
+      <li><a href="#anilar"><span class="menu__ad">Anılar</span><span class="menu__not">Kalanlar</span></a></li>
+      <li><a href="#hakkimizda"><span class="menu__ad">Hakkımızda</span><span class="menu__not">Biz</span></a></li>
+    </ol>
+    <p class="menu__dize">Muhabbet bağında bir gül açıldı<br>Bir derdim var bin dermâna değişmem<span>Hatayî</span></p>
+  </div>
+</div>
+
+<main id="sahne"></main>
+
+<div class="pencere" id="pencere" role="tooltip" hidden></div>
+<div class="perde" id="perde" hidden></div>
+
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script type="module" src="assets/site.js"></script>
+</body>
+</html>
